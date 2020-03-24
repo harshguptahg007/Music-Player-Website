@@ -1,0 +1,38 @@
+:root {
+    // usage --- var(--color-primary)
+    --color-primary: #000;
+    --color-secondary: #f4f4f4;
+
+    --color-grey-color: #252429;
+
+    --color-footer-color: #333333;
+
+    --color-text-color: #fff;
+    --color-red-color: #b90415;
+    --color-red-hover-color: #d3071b;
+    
+    --color-blue-color: #103063;
+    --color-blue-hover-color: #2B0589;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color: var(--color-text-color);
+    overflow-x: hidden;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text-color);
+}
+
+li {
+    list-style: none;
+}

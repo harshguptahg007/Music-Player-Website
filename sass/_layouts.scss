@@ -1,0 +1,40 @@
+#showcase {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-primary);
+    background: url("../img/showcase.jpeg") no-repeat center/cover;
+}
+
+#music {
+    width: 100vw;
+    background-color: var(--color-grey-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30rem;
+}
+
+#movie {
+    width: 100vw;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gift-card-section {
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    padding-bottom: 5rem;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-grey-color);
+    align-items: center;
+    padding-top: 3rem;
+}
